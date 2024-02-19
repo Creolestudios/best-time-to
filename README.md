@@ -40,7 +40,7 @@ https://www.awesomescreenshot.com/video/24993425?key=cac3344212ce7cda571d10c9344
 
 git clone https://github.com/Creolestudios/best-time-to.git
 
-cd best-time-to.git
+cd best-time-to
 
 
 
