@@ -1,0 +1,127 @@
+/* --------------------------------------------------
+	typography
+-------------------------------------------------- */
+
+html, body, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u,  center, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, mark, audio, video {
+}
+
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+em,
+i,
+time,
+div {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1,
+.h1,
+.title {
+  font-size: 80px;
+  line-height: 88px;
+
+  @media (max-width: 767px) {
+    font-size: 42px;
+    line-height: 44px;
+  }
+}
+
+h2,
+.h2 {
+  font-family: $BricolageGrotesque-bold;
+  font-size: 40px;
+  line-height: normal;
+
+  @media (max-width: 991px) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 32px;
+  font-family: $BricolageGrotesque-Medium;
+  font-weight: normal;
+  line-height: 40px;
+
+  @media (max-width: 767px) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 28px;
+  line-height: 146%;
+
+  @media (max-width: 767px) {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+h5,
+.h5 {
+  font-size: 24px;
+  line-height: 30px;
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+h6,
+.h6 {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: $BricolageGrotesque-bold;
+  margin: 0px;
+
+  @media (max-width: 767px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.subtitle {  
+  font-size: 16px;
+  letter-spacing: 1.23px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: $DMSans-Medium;
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+  line-height: 20px;
+  }
+}

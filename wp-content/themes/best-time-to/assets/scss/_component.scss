@@ -1,0 +1,117 @@
+.arrow {
+    position: relative;
+    cursor: pointer !important;
+    @include flex(center, center, null, null);
+    border-radius: 100%;
+  
+    &:hover {
+      box-shadow: 0 2px 16px 2px rgba(0, 0, 0, 0.3);
+    }
+  
+    &.arrow-green {
+      background-color: $green2;
+      &::after {
+        content: "";
+        @include position(absolute, 50%, null, 50%, null);
+        transform: translate(-50%, -50%);
+        background-image: url("../../assets/images/arrow-link-white.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer !important;
+      }
+    }
+  
+    &.arrow-white {
+      background-color: $white;
+      &::after {
+        content: "";
+        @include position(absolute, 50%, null, 50%, null);
+        transform: translate(-50%, -50%);
+        background-image: url("../../assets/images/arrow-link-blue.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer !important;
+      }
+    }
+  
+    &.arrow-large {
+      @include width-height(96px, 96px);
+      @media (max-width: 1440px) {
+        @include width-height(80px, 80px);
+      }
+      @media (max-width: 1199px) {
+        @include width-height(65px, 65px);
+      }
+      @media (max-width: 767px) {
+        @include width-height(56px, 56px);
+      }
+      &::after {
+        cursor: pointer !important;
+        @include width-height(38px, 38px);
+        @media (max-width: 1440px) {
+          @include width-height(32px, 32px);
+        }
+        @media (max-width: 1199px) {
+          @include width-height(30px, 30px);
+        }
+        @media (max-width: 767px) {
+          @include width-height(28px, 28px);
+        }
+      }
+    }
+  
+    &.arrow-medium {
+      cursor: pointer !important;
+      @include width-height(72px, 72px);
+      @media (max-width: 1440px) {
+        @include width-height(65px, 65px);
+      }
+      @media (max-width: 767px) {
+        @include width-height(50px, 50px);
+      }
+      &::after {
+        @include width-height(36px, 36px);
+        @media (max-width: 1440px) {
+          @include width-height(30px, 30px);
+        }
+        @media (max-width: 767px) {
+          @include width-height(26px, 26px);
+        }
+      }
+    }
+  
+    &.arrow-small {
+      cursor: pointer !important;
+      @include width-height(40px, 40px);
+      @media (max-width: 767px) {
+        @include width-height(30px, 30px);
+      }
+      &::after {
+        @include width-height(20px, 20px);
+        @media (max-width: 767px) {
+          @include width-height(15px, 15px);
+        }
+      }
+    }
+}
+
+.add-banner {
+    width: 60%;
+    margin: 0 auto;
+    @include flex(null, center, null, null);
+
+    @media (max-width: 1199px) {
+      width: 70%;
+    }
+
+    @media (max-width: 991px) {
+      width: 80%;
+    }
+
+    @media (max-width: 767px) {
+      width: 95%;
+    }
+    img{
+      width: 100%;
+    }
+}

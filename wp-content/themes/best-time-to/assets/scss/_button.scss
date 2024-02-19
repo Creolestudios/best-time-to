@@ -1,0 +1,52 @@
+.btn-wrapper {
+  margin: 0 auto;
+  @include flex(center, center, null, null);
+  text-decoration: none !important;
+  width: 100%;
+}
+.btn {
+  cursor: pointer !important;
+  border: 1px solid $aquaLightBlue;
+  padding: 20px 40px;
+  border-radius: 82px;
+  background-color: transparent;
+  outline: none;
+  color: $aquaLightBlue;
+  height: fit-content;
+  text-transform: uppercase;
+  position: relative;
+  @include flex(center, center, null, null);
+  box-shadow: none;
+  transition: .2s all ease-in-out;
+  @extend .text-18;
+
+  @media (max-width: 1440px) {
+    padding: 15px 30px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 12px 40px;
+    font-size: 16px;
+  }
+  
+  &:hover,
+  &:focus {
+    background-color: $aquaLightBlue;
+    border-color: $aquaLightBlue;
+    color: $white;
+  }
+
+  &.btn-green {
+    border: 1px solid $green;
+    background-color: $green;
+    color: $white;
+
+    &:hover,
+    &:focus {
+      background-color: transparent;
+      border-color: $green;
+      color: $green;
+    }
+  }
+}
+

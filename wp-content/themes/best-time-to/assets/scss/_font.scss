@@ -1,0 +1,109 @@
+// Font Family
+
+// ----------------- DMSans font -----------------
+$DMSans-Bold: 'DMSans-Bold';
+$DMSans-Bold-url: url('../../assets/fonts/DM_Sans/DMSans-Bold.ttf') format('TrueType');
+
+$DMSans-Medium: 'DMSans-Medium';
+$DMSans-Medium-url: url('../../assets/fonts/DM_Sans/DMSans-Medium.ttf') format('TrueType');
+
+$DMSans-Regular: 'DMSans-Regular';
+$DMSans-Regular-url: url('../../assets/fonts/DM_Sans/DMSans-Regular.ttf') format('TrueType');
+
+// ----------------- DMSans font -----------------
+
+// ----------------- Adelphe font -----------------
+$Adelphe: 'Adelphe';
+$Adelphe-url: url('../../assets/fonts/Adelphe/Adelphe-FructidorBold.woff') format('woff');
+// ----------------- Adelphe font -----------------
+
+// ----------------- BricolageGrotesque font -----------------
+$BricolageGrotesque-bold: 'BricolageGrotesque-bold';
+$BricolageGrotesque-bold-url: url('../../assets/fonts/bricolage_grotesque/BricolageGrotesque-Bold.woff2') format('woff');
+
+$BricolageGrotesque-extraBold: 'BricolageGrotesque-extraBold';
+$BricolageGrotesque-extraBold-url: url('../../assets/fonts/bricolage_grotesque/BricolageGrotesque-ExtraBold.woff2') format('woff');
+
+$BricolageGrotesque-extraLight: 'BricolageGrotesque-extraLight';
+$BricolageGrotesque-extraLight-url: url('../../assets/fonts/bricolage_grotesque/BricolageGrotesque-ExtraLight.woff2') format('woff');
+
+$BricolageGrotesque-light: 'BricolageGrotesque-light';
+$BricolageGrotesque-light-url: url('../../assets/fonts/bricolage_grotesque/BricolageGrotesque-Light.woff2') format('woff');
+
+$BricolageGrotesque-Medium: 'BricolageGrotesque-Medium';
+$BricolageGrotesque-Medium-url: url('../../assets/fonts/bricolage_grotesque/BricolageGrotesque-Medium.woff2') format('woff');
+
+$BricolageGrotesque: 'BricolageGrotesque';
+$BricolageGrotesque-url: url('../../assets/fonts/bricolage_grotesque/BricolageGrotesque-Regular.woff2') format('woff');
+
+$BricolageGrotesque-SemiBold: 'BricolageGrotesque-SemiBold';
+$BricolageGrotesque-SemiBold-url: url('../../assets/fonts/bricolage_grotesque/BricolageGrotesque-SemiBold.woff2') format('woff');
+
+// ----------------- BricolageGrotesque font -----------------
+
+
+@font-face {
+  font-family: $DMSans-Bold;
+  font-style: normal;
+  src: $DMSans-Bold-url;
+}
+
+@font-face {
+  font-family: $DMSans-Medium;
+  font-style: normal;
+  src: $DMSans-Medium-url;
+}
+
+@font-face {
+  font-family: $DMSans-Regular;
+  font-style: normal;
+  src: $DMSans-Regular-url;
+}
+
+@font-face {
+  font-family: $Adelphe;
+  font-style: normal;
+  src: $Adelphe-url;
+}
+
+@font-face {
+  font-family: $BricolageGrotesque-bold;
+  font-style: normal;
+  src: $BricolageGrotesque-bold-url;
+}
+
+@font-face {
+  font-family: $BricolageGrotesque-extraBold;
+  font-style: normal;
+  src: $BricolageGrotesque-extraBold-url;
+}
+
+@font-face {
+  font-family: $BricolageGrotesque-extraLight;
+  font-style: normal;
+  src: $BricolageGrotesque-extraLight-url;
+}
+
+@font-face {
+  font-family: $BricolageGrotesque-light;
+  font-style: normal;
+  src: $BricolageGrotesque-light-url;
+}
+
+@font-face {
+  font-family: $BricolageGrotesque-Medium;
+  font-style: normal;
+  src: $BricolageGrotesque-Medium-url;
+}
+
+@font-face {
+  font-family: $BricolageGrotesque;
+  font-style: normal;
+  src: $BricolageGrotesque-url;
+}
+
+@font-face {
+  font-family: $BricolageGrotesque-SemiBold;
+  font-style: normal;
+  src: $BricolageGrotesque-SemiBold-url;
+}
